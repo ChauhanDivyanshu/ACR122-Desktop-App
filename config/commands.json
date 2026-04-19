@@ -1,0 +1,60 @@
+{
+  "COMMON": {
+    "GET_UID": "FF CA 00 00 00",
+    "GET_ATR": "FF CA 01 00 00"
+  },
+
+  "ACR122U": {
+    "BUZZER_OFF": "FF 00 52 00 00",
+    "LED_RED": "FF 00 40 0E 04 01 00 00 00",
+    "LED_GREEN": "FF 00 40 0E 04 02 00 00 00"
+  },
+
+  "NTAG": {
+    "READ_PAGE": "30",
+    "FAST_READ": "3A",
+    "WRITE_PAGE": "A2",
+    "COMPAT_WRITE": "A0",
+
+    "READ_CNT": "39",
+    "READ_SIG": "3C",
+    "GET_VERSION": "60",
+
+    "PWD_AUTH": "1B",
+    "WRITE_PWD": "A2",
+    "WRITE_PACK": "A2",
+
+    "LOCK_STATIC": "A2",
+    "LOCK_DYNAMIC": "A2"
+  },
+
+  "MIFARE_CLASSIC": {
+    "AUTH_A": "60",
+    "AUTH_B": "61",
+
+    "READ_BLOCK": "30",
+    "WRITE_BLOCK": "A0",
+
+    "INCREMENT": "C1",
+    "DECREMENT": "C0",
+    "RESTORE": "C2",
+    "TRANSFER": "B0"
+  },
+
+  "ULTRALIGHT": {
+    "READ": "30",
+    "WRITE": "A2",
+    "COMPAT_WRITE": "A0"
+  },
+
+  "ISO_DEP": {
+    "SELECT_FILE": "00 A4 04 00",
+    "READ_BINARY": "00 B0",
+    "UPDATE_BINARY": "00 D6"
+  },
+
+  "NDEF": {
+    "TLV_NDEF": "03",
+    "TLV_TERMINATOR": "FE"
+  }
+}

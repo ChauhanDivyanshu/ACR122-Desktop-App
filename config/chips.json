@@ -1,0 +1,27 @@
+{
+  "NTAG213": {
+    "type": "NTAG",
+    "total_pages": 45,
+    "user_memory_start": 4,
+    "user_memory_end": 39,
+    "supports_password": true,
+    "supports_lock": true
+  },
+
+  "NTAG216": {
+    "type": "NTAG",
+    "total_pages": 231,
+    "user_memory_start": 4,
+    "user_memory_end": 225,
+    "supports_password": true,
+    "supports_lock": true
+  },
+
+  "MIFARE_1K": {
+    "type": "MIFARE",
+    "sectors": 16,
+    "blocks_per_sector": 4,
+    "supports_password": false,
+    "supports_lock": true
+  }
+}

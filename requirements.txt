@@ -1,0 +1,5 @@
+pyscard
+pandas
+customtkinter
+Pillow
+loguru
